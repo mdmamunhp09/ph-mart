@@ -20,7 +20,7 @@ h1,h3{
 h1{
     font-weight: 700;
     font-size: 4rem;
-    
+    line-height: 6rem;
 }
 
 p, li, a, button{
@@ -71,3 +71,39 @@ nav .nav-links a:hover{
     color:#4b709e;
     transition: all 0.2s;
 }
+
+/* banner section start  */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.banner-content{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.banner-content h1{
+    width: 40rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+}
+.banner-content p{
+    width: 45rem;
+    margin-bottom: 3rem;
+    
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img{
+    width: 100%;
+}
+
