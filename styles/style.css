@@ -150,3 +150,11 @@ nav .nav-links a:hover{
     margin-top: 1rem;
 
 }
+footer{
+   font-size: 1rem;
+   height: 5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #efefef; 
+}
